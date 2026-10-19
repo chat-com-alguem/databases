@@ -1,0 +1,43 @@
+# Fontes desta base. Toda mensagem em messages/<id>.jsonl pertence a uma fonte daqui com o mesmo id.
+# Gerado e atualizado pelo agente-extrator (https://github.com/chat-com-alguem/agente-extrator).
+
+sources:
+  - id: confissoes-pusey
+    title: The Confessions of St. Augustine, tradução de E. B. Pusey (1838)
+    short_title: Confissões (tradução de Pusey)
+    publisher: 'Project Gutenberg, eBook #3296 (tradução de E. B. Pusey, Oxford, 1838)'
+    date: '1838-01-01'
+    description: 'Os treze livros das Confissões de Santo Agostinho, bispo de Hipona, escritas por volta de 397-400:
+      a infância, a juventude em Cartago, os maniqueus, Milão, a conversão no jardim, a morte da mãe, Mônica, e as
+      meditações sobre a memória, o tempo e a criação. Tradução inglesa de Edward Bouverie Pusey (1838), em domínio
+      público.
+
+      '
+    links:
+    - label: Original
+      url: https://www.gutenberg.org/cache/epub/3296/pg3296.txt
+      kind: arquivo
+    snapshot:
+      path: arquivos/confissoes-pusey.txt
+      sha256: ef3fa6267968c875def9091a1882d14b525a85bbf6996a3e2f130a775b2e22d2
+      captured_at: '2026-10-15T17:54:27+00:00'
+      url: https://www.gutenberg.org/cache/epub/3296/pg3296.txt
+
+  - id: confissoes-1905
+    title: Confissões do grande Doutor da Igreja Santo Agostinho, tradução portuguesa anônima (1905)
+    short_title: Confissões (tradução portuguesa, 1905)
+    publisher: H. Garnier, Rio de Janeiro (1905); digitalização no Internet Archive
+    date: '1905-01-01'
+    description: 'As Confissões "traduzidas na lingua portugueza por hum devoto", na edição da Livraria Garnier de
+      1905. Tradução anônima, em grafia antiga ("hum", "Deos"). O texto vem do reconhecimento ótico (OCR) de uma digitalização
+      de baixa resolução: há erros de letra e trechos perdidos.
+
+      '
+    links:
+    - label: Original
+      url: https://dn710100.ca.archive.org/0/items/confissoes-do-grande-doutor-da-igreja-santo-agostinho-1905/Confiss%C3%B5es%20do%20grande%20doutor%20da%20Igreja%20Santo%20Agostinho%20%281905%29_text.pdf
+      kind: documento
+    pdf:
+      sha256: b52531d8a101fbe1128adaddac2705004a966f17b35dbf1d055868100e30eddc
+      pages: 478
+      url: https://dn710100.ca.archive.org/0/items/confissoes-do-grande-doutor-da-igreja-santo-agostinho-1905/Confiss%C3%B5es%20do%20grande%20doutor%20da%20Igreja%20Santo%20Agostinho%20%281905%29_text.pdf

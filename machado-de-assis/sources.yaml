@@ -1,0 +1,100 @@
+# Fontes desta base. Toda mensagem em messages/<id>.jsonl pertence a uma fonte daqui com o mesmo id.
+# Gerado e atualizado pelo agente-extrator (https://github.com/chat-com-alguem/agente-extrator).
+
+sources:
+  - id: cartas-machado-nabuco
+    title: Correspondência entre Machado de Assis e Joaquim Nabuco (1865-1908)
+    short_title: Cartas de Machado e Nabuco
+    publisher: Graça Aranha, Monteiro Lobato & Cia. (1923); digitalização Brasiliana Guita e José Mindlin (USP)
+    date: '1923-01-01'
+    description: 'As cartas trocadas por Machado de Assis e Joaquim Nabuco entre 1865 e 1908, publicadas por Graça
+      Aranha em "Machado de Assis e Joaquim Nabuco: commentarios e notas á correspondencia entre estes dous escriptores"
+      (1923). Grafia da época. Domínio público, segundo a ficha da Brasiliana da USP. O texto vem do reconhecimento
+      ótico (OCR) da digitalização.
+
+      '
+    links:
+    - label: Original
+      url: https://digital.bbm.usp.br/bitstream/bbm/3932/1/001036_COMPLETO.pdf
+      kind: documento
+    pdf:
+      sha256: 23a3073b7a23e2a0dbbb79a0703a251246778c9f87b3cfb47956f682a0647303
+      pages: 299
+      url: https://digital.bbm.usp.br/bitstream/bbm/3932/1/001036_COMPLETO.pdf
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 117, página 118, página 125, página 126, página 133,
+      página 134, página 147, página 148, página 185, página 186, página 194. Confira no original.'
+
+  - id: graca-aranha-comentarios
+    title: 'Graça Aranha: comentários à correspondência de Machado e Nabuco (1923)'
+    short_title: 'Graça Aranha: comentários (1923)'
+    publisher: Monteiro Lobato & Cia. (1923); digitalização Brasiliana Guita e José Mindlin (USP)
+    date: '1923-01-01'
+    description: 'O ensaio de Graça Aranha que abre o livro de 1923: a amizade de Machado e Nabuco, a Academia Brasileira
+      de Letras e a leitura que Graça Aranha faz de cada um. É a opinião dele, não de Machado.
+
+      '
+    links:
+    - label: Original
+      url: https://digital.bbm.usp.br/bitstream/bbm/3932/1/001036_COMPLETO.pdf
+      kind: documento
+    pdf:
+      sha256: 23a3073b7a23e2a0dbbb79a0703a251246778c9f87b3cfb47956f682a0647303
+      pages: 299
+      url: https://digital.bbm.usp.br/bitstream/bbm/3932/1/001036_COMPLETO.pdf
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 17, página 18, página 103. Confira no original.'
+
+  - id: cronicas-a-semana
+    title: 'A Semana: crônicas de Machado de Assis na Gazeta de Notícias (1892-1900)'
+    short_title: Crônicas de A Semana (1892-1900)
+    publisher: Ministério da Educação, portal Machado de Assis (texto da Obra Completa, Nova Aguilar, 1994)
+    date: '1900-11-11'
+    description: 'As crônicas semanais de Machado na Gazeta de Notícias, de 24/04/1892 a 11/11/1900: política, a República
+      recém-proclamada, a cidade do Rio, costumes e notícias da semana.
+
+      '
+    links:
+    - label: Original
+      url: https://machado.mec.gov.br/obra-completa-lista/item/download/45_ea040963b104e779a661f26690195654
+      kind: documento
+    pdf:
+      sha256: 89ed2186d0863bcac8aeb5241724618ffe57e9dc113fdbeb150c7528243a6e68
+      pages: 426
+      url: https://machado.mec.gov.br/obra-completa-lista/item/download/45_ea040963b104e779a661f26690195654
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 426. Confira no original.'
+
+  - id: dom-casmurro
+    title: Dom Casmurro (1899)
+    short_title: Dom Casmurro (1899)
+    publisher: Ministério da Educação, portal Machado de Assis (texto da Obra Completa, Nova Aguilar, 1994)
+    date: '1899-01-01'
+    description: 'O romance narrado por Bento Santiago, o Bentinho, sobre Capitu e Escobar.
+
+      '
+    links:
+    - label: Original
+      url: https://machado.mec.gov.br/obra-completa-lista/item/download/13_7101e1a36cda79f6c97341757dcc4d04
+      kind: documento
+    pdf:
+      sha256: 25523f9ecd355cd11e4ddd4510d108a80608029bc21b3f68b4805dcba9bbde41
+      pages: 128
+      url: https://machado.mec.gov.br/obra-completa-lista/item/download/13_7101e1a36cda79f6c97341757dcc4d04
+
+  - id: memorias-postumas
+    title: Memórias Póstumas de Brás Cubas (1881)
+    short_title: Memórias Póstumas de Brás Cubas
+    publisher: Ministério da Educação, portal Machado de Assis (texto da Obra Completa, Nova Aguilar, 1994)
+    date: '1881-01-01'
+    description: 'O romance narrado por um defunto autor, Brás Cubas, que conta a própria vida depois de morto.
+
+      '
+    links:
+    - label: Original
+      url: https://machado.mec.gov.br/obra-completa-lista/item/download/16_ff646a924421ea897f27cf6d21e6bb23
+      kind: documento
+    pdf:
+      sha256: 9e1b1e310299323a8bfe519a7bc299f6a846e432eb4518108e4b47362b03f493
+      pages: 140
+      url: https://machado.mec.gov.br/obra-completa-lista/item/download/16_ff646a924421ea897f27cf6d21e6bb23

@@ -1,0 +1,45 @@
+# Fontes públicas usadas pelo projeto.
+#
+# Regra: toda mensagem em data/messages/<id>.jsonl pertence a uma fonte declarada aqui
+# com o mesmo id. O sistema se recusa a subir se houver mensagem sem fonte.
+#
+# O SHA-256 é a "impressão digital" do PDF. Quem baixar o arquivo de qualquer lugar
+# pode conferir se é exatamente o mesmo documento:
+#   Linux:   sha256sum arquivo.pdf
+#   macOS:   shasum -a 256 arquivo.pdf
+#   Windows: certutil -hashfile arquivo.pdf SHA256
+
+sources:
+  - id: pf-ipja-3298613-2026
+    title: "Informação de Polícia Judiciária de Análise (IPJ-A) nº 3298613/2026, Polícia Federal"
+    short_title: "Relatório da PF sobre o celular de Vorcaro"
+    publisher: "Polícia Federal (NADIP/DFIN/CGRC/DICOR); sigilo retirado pelo STF"
+    date: 2026-08-27
+    description: >
+      Relatório de 218 páginas da Polícia Federal com a análise do iPhone de Daniel Vorcaro,
+      apreendido na Operação Compliance Zero (18/11/2025). Foi produzido a pedido do ministro
+      André Mendonça, do STF, nos autos da Pet 15.556, e entregue em 27/08/2026. O sigilo foi
+      retirado por decisão do ministro em 01/09/2026, na Pet 16.662. O relatório reproduz,
+      como imagens, conversas de WhatsApp e notas do aplicativo Notas extraídas do aparelho.
+    links:
+      - label: "PDF do relatório (cópia publicada pelo GP1)"
+        url: "https://www.gp1.com.br/media/uploads/2026/09/01/relatorio_pf_vorcaro_moraes__01092026.pdf"
+        kind: documento
+      - label: "GP1: Leia a íntegra do relatório da PF (01/09/2026)"
+        url: "https://www.gp1.com.br/brasil/noticia/2026/9/1/leia-a-integra-do-relatorio-da-pf-com-mensagens-entre-daniel-vorcaro-e-alexandre-de-moraes-630444.html"
+        kind: reportagem
+      - label: "Poder360: Saiba o que dizem as mensagens de Vorcaro apreendidas pela PF"
+        url: "https://www.poder360.com.br/poder-justica/saiba-o-que-dizem-as-mensagens-de-vorcaro-apreendidas-pela-pf/"
+        kind: reportagem
+      - label: "CNN Brasil: o que se sabe sobre o caso Moraes e Vorcaro"
+        url: "https://www.cnnbrasil.com.br/politica/voo-em-jatinho-e-mensagens-o-que-se-sabe-sobre-o-caso-moraes-e-vorcaro/"
+        kind: reportagem
+    pdf:
+      url: "https://www.gp1.com.br/media/uploads/2026/09/01/relatorio_pf_vorcaro_moraes__01092026.pdf"
+      sha256: 23cfdfa410c47ab09cbb2b443965e3a3095d9bc3dc5fb266efff76d6f5192b60
+      pages: 218
+    notes:
+      - "As mensagens aparecem no relatório como imagens (prints). O texto deste projeto é uma transcrição e pode ter erros: confira sempre a página original, que o chat mostra ao lado de cada citação."
+      - "Nas notas do app Notas, o destinatário não aparece no print. Foi a PF que concluiu, cruzando registros do aparelho, que as notas foram enviadas ao contato salvo como \"Alexandre de Moraes BRASILIA\"."
+      - "A própria PF registra que a análise não é exaustiva e foi feita em 72 horas."
+      - "Mensagens são elementos de uma investigação em andamento. Não são, por si, prova de crime."

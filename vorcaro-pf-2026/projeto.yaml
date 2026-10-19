@@ -1,0 +1,37 @@
+# Identidade do projeto: tudo que muda de um chat para outro fica aqui, não no código.
+# Para criar um chat sobre outra conversa, troque este arquivo, sources.yaml e data/messages/.
+
+name: Chat com Vorcaro
+tagline: Pergunte às mensagens do celular de Daniel Vorcaro. Toda resposta mostra a mensagem de origem.
+
+# Dono do aparelho/arquivo: as mensagens dele aparecem à direita, como no WhatsApp.
+owner: Daniel Vorcaro
+
+# Descrição do material para o modelo de linguagem (entra nas instruções de sistema).
+subject: >-
+  mensagens do celular de Daniel Vorcaro, ex-controlador do Banco Master, apreendido pela
+  Polícia Federal na Operação Compliance Zero. As mensagens aparecem como imagens em um
+  relatório da PF cujo sigilo foi retirado pelo STF em 01/09/2026, e foram transcritas.
+
+# Quem escreveu o contexto que acompanha as mensagens (campo source_context).
+context_author: a PF
+context_label: O que a PF diz
+
+# Um exemplo de citação real do conjunto, para ensinar o formato ao modelo.
+example_citation: Vorcaro pede "9 paxs e 4 segurancas" para o almoço [p025-08]
+
+# Ressalva que o modelo deve respeitar e que a interface mostra no rodapé.
+caution: >-
+  Mensagens são elementos de uma investigação em andamento, não prova de crime.
+  Não acuse ninguém e não tire conclusões que o texto não sustenta.
+
+# Números longos que são públicos e podem aparecer no texto (o validador bloqueia
+# sequências longas de dígitos para evitar telefones e documentos sem máscara).
+public_numbers:
+  - "144738439"
+
+suggestions:
+  - Como Vorcaro organizou o almoço para convidados em Campos do Jordão?
+  - Que carro Vorcaro informou para entrar na garagem em dezembro de 2023?
+  - O que Vorcaro combinava por mensagem com o motorista Gustavo?
+  - O que foi pedido ao hotel Botanique para a visita dos convidados?

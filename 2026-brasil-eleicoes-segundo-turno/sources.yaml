@@ -1,0 +1,484 @@
+# Fontes desta base. Toda mensagem em messages/<id>.jsonl pertence a uma fonte daqui com o mesmo id.
+# Gerado e atualizado pelo agente-extrator (https://github.com/chat-com-alguem/agente-extrator).
+
+sources:
+  - id: tse-candidaturas-2-turno-2026
+    title: 'TSE: candidaturas no 2º turno de 2026 (Presidente e Governador)'
+    short_title: 'TSE: candidaturas no 2º turno de 2026 (Presidente e Gover…'
+    publisher: Texto
+    date: '2026-10-15'
+    description: 'Dados oficiais da ficha de cada candidatura no DivulgaCandContas do TSE: nome, número, partido,
+      coligação, vice e situação. Copiados campo a campo do JSON publicado pelo TSE (fichas.json).'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/BR/20322002026/1/candidatos
+      kind: arquivo
+    snapshot:
+      path: arquivos/tse-candidaturas-2-turno-2026.md
+      sha256: ab3476ee1e922dab54fbb89a3cc2a57a4c9d202c549b3e918af0fdc66411a741
+      captured_at: '2026-10-15T16:27:43+00:00'
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/BR/20322002026/1/candidatos
+
+  - id: presidente-lula-proposta
+    title: Proposta de governo de LULA (PT), Presidente
+    short_title: Proposta de governo de LULA (PT), Presidente
+    publisher: Documento PDF
+    date: '2026-08-07'
+    description: 'Proposta de governo registrada no TSE pela candidatura de LULA (PT) ao cargo de Presidente (Lei
+      9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: 0806JOB838PTlivroplanodegovernocompressed.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005
+      kind: documento
+    pdf:
+      sha256: e1c162c20c81dafadf69b10bab230b5a6dc48f6b6c27c2cfce853b131a8bcc36
+      pages: 84
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 2, página 4, página 5, página 84. Confira
+      no original.'
+
+  - id: presidente-flavio-bolsonaro-proposta
+    title: Proposta de governo de FLAVIO BOLSONARO (PL), Presidente
+    short_title: Proposta de governo de FLAVIO BOLSONARO (PL), Presidente
+    publisher: PL
+    date: '2026-08-13'
+    description: 'Proposta de governo registrada no TSE pela candidatura de FLAVIO BOLSONARO (PL) ao cargo de Presidente
+      (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: DiretrizesPlanodeGovernoFlavioBolsonaro20272030versaofinal.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726
+      kind: documento
+    pdf:
+      sha256: 7d1d95075e11e3c4113e8dcd502438049a34f5147a84cb0f746bf59046e477a4
+      pages: 76
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 2, página 48, página 76. Confira no original.'
+
+  - id: governador-ac-alan-rick-proposta-1
+    title: Proposta de governo de ALAN RICK (REPUBLICANOS), Governador do Acre, arquivo 1 de 2
+    short_title: Proposta de governo de ALAN RICK (REPUBLICANOS), Governad…
+    publisher: Documento PDF
+    date: '2026-07-29'
+    description: 'Proposta de governo registrada no TSE pela candidatura de ALAN RICK (REPUBLICANOS) ao cargo de Governador
+      do Acre (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: PLANO DE GOVERNO.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10016835237
+      kind: documento
+    pdf:
+      sha256: ec8504485d6f6b65390bd4553eea93f0d7035e59b338bb98f82d4143f2582d1b
+      pages: 9
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10016835237
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 2. Confira no original.'
+
+  - id: governador-ac-alan-rick-proposta-2
+    title: Proposta de governo de ALAN RICK (REPUBLICANOS), Governador do Acre, arquivo 2 de 2
+    short_title: Proposta de governo de ALAN RICK (REPUBLICANOS), Governad…
+    publisher: Documento PDF
+    date: '2026-08-12'
+    description: 'Proposta de governo registrada no TSE pela candidatura de ALAN RICK (REPUBLICANOS) ao cargo de Governador
+      do Acre (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-Allan Rick_Plano Governo_V4_paginas
+      continuas-compressed.pdf - Adobe cloud storage.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017084181
+      kind: documento
+    pdf:
+      sha256: e48b61a093e52292b5e547a0f0d5fd172f7641e48f32b452e5245b14160cac42
+      pages: 41
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017084181
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 41. Confira no original.'
+
+  - id: governador-ac-mailza-assis-proposta
+    title: Proposta de governo de MAILZA ASSIS (PP), Governador do Acre
+    short_title: Proposta de governo de MAILZA ASSIS (PP), Governador do Acre
+    publisher: Documento PDF
+    date: '2026-08-06'
+    description: 'Proposta de governo registrada no TSE pela candidatura de MAILZA ASSIS (PP) ao cargo de Governador
+      do Acre (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: PLANO DE GOVERNO MAILZA
+      E JESSICAcompressed.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017029377
+      kind: documento
+    pdf:
+      sha256: 81abd9d775bc37381c88c2ff95bda2afbd5e8dff605a33e6e5e6826f3493e967
+      pages: 68
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/10017029377
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1. Confira no original.'
+
+  - id: governador-am-professora-maria-do-carmo-proposta
+    title: Proposta de governo de PROFESSORA MARIA DO CARMO (PL), Governador do Amazonas
+    short_title: Proposta de governo de PROFESSORA MARIA DO CARMO (PL), Go…
+    publisher: Documento PDF
+    date: '2026-08-05'
+    description: 'Proposta de governo registrada no TSE pela candidatura de PROFESSORA MARIA DO CARMO (PL) ao cargo
+      de Governador do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: PlanodeGoverno2026TSE.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017005304
+      kind: documento
+    pdf:
+      sha256: 067216d950fb6a35b0e45bfd8a426d0fb191e63e35bb82a2466ae7823c3c383b
+      pages: 9
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017005304
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1. Confira no original.'
+
+  - id: governador-am-omar-aziz-proposta-1
+    title: Proposta de governo de OMAR AZIZ (PSD), Governador do Amazonas, arquivo 1 de 9
+    short_title: Proposta de governo de OMAR AZIZ (PSD), Governador do Ama…
+    publisher: Documento PDF
+    date: '2026-08-14'
+    description: 'Proposta de governo registrada no TSE pela candidatura de OMAR AZIZ (PSD) ao cargo de Governador
+      do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-PLANO ESTRATEGICO
+      COMPLETO - VOLUME-01.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017103825
+      kind: documento
+    pdf:
+      sha256: 1dabe9fb5b7e9000ecc7ab0b7fbf216fc95804865b5db421b8ba34ee96cfb431
+      pages: 190
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017103825
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 2, página 3, página 4, página 14, página
+      19, página 42, página 83, página 87, página 89, página 91, página 93, página 95, página 97, página 99, página
+      101, página 103, página 115, página 145, página 148, página 157. Confira no original.'
+
+  - id: governador-am-omar-aziz-proposta-2
+    title: Proposta de governo de OMAR AZIZ (PSD), Governador do Amazonas, arquivo 2 de 9
+    short_title: Proposta de governo de OMAR AZIZ (PSD), Governador do Ama…
+    publisher: Documento PDF
+    date: '2026-08-14'
+    description: 'Proposta de governo registrada no TSE pela candidatura de OMAR AZIZ (PSD) ao cargo de Governador
+      do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-PLANO ESTRATEGICO
+      COMPLETO - VOLUME-02.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124948
+      kind: documento
+    pdf:
+      sha256: 5907da46ac3a2a3bbaf6c3fbb26c680945d59a8d1e3ae7dc0c411efe96f914e7
+      pages: 215
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124948
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 16, página 20, página 43, página 100, página 150,
+      página 168, página 187, página 210. Confira no original.'
+
+  - id: governador-am-omar-aziz-proposta-3
+    title: Proposta de governo de OMAR AZIZ (PSD), Governador do Amazonas, arquivo 3 de 9
+    short_title: Proposta de governo de OMAR AZIZ (PSD), Governador do Ama…
+    publisher: Documento PDF
+    date: '2026-08-14'
+    description: 'Proposta de governo registrada no TSE pela candidatura de OMAR AZIZ (PSD) ao cargo de Governador
+      do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-PLANO ESTRATEGICO
+      COMPLETO - VOLUME-03.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124949
+      kind: documento
+    pdf:
+      sha256: 525ae31d6031e72374f5abfb39156b826ff0753bf2b99ec3e49326dd5aa25ad5
+      pages: 262
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124949
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 22, página 26, página 35, página 60, página 65, página
+      112, página 139, página 151, página 177, página 204, página 229, página 230, página 231, página 253, página
+      262. Confira no original.'
+
+  - id: governador-am-omar-aziz-proposta-4
+    title: Proposta de governo de OMAR AZIZ (PSD), Governador do Amazonas, arquivo 4 de 9
+    short_title: Proposta de governo de OMAR AZIZ (PSD), Governador do Ama…
+    publisher: Documento PDF
+    date: '2026-08-14'
+    description: 'Proposta de governo registrada no TSE pela candidatura de OMAR AZIZ (PSD) ao cargo de Governador
+      do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-PLANO ESTRATEGICO
+      COMPLETO - VOLUME-04.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124950
+      kind: documento
+    pdf:
+      sha256: 154c981e4aee62d4f59ebe700c38e5f8ead53c32729be464c1fb0e25137d80e6
+      pages: 243
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124950
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 16, página 37, página 47, página 112, página 140,
+      página 157, página 172, página 182, página 198, página 208, página 216, página 231. Confira no original.'
+
+  - id: governador-am-omar-aziz-proposta-5
+    title: Proposta de governo de OMAR AZIZ (PSD), Governador do Amazonas, arquivo 5 de 9
+    short_title: Proposta de governo de OMAR AZIZ (PSD), Governador do Ama…
+    publisher: Documento PDF
+    date: '2026-08-14'
+    description: 'Proposta de governo registrada no TSE pela candidatura de OMAR AZIZ (PSD) ao cargo de Governador
+      do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-PLANO ESTRATEGICO
+      COMPLETO - VOLUME-05.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124951
+      kind: documento
+    pdf:
+      sha256: 767d2062c62de7c4dbdfbf36b2ab724ba230d6806f3266569580957803662076
+      pages: 83
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124951
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 19, página 40, página 46, página 77. Confira no original.'
+
+  - id: governador-am-omar-aziz-proposta-6
+    title: Proposta de governo de OMAR AZIZ (PSD), Governador do Amazonas, arquivo 6 de 9
+    short_title: Proposta de governo de OMAR AZIZ (PSD), Governador do Ama…
+    publisher: Documento PDF
+    date: '2026-08-14'
+    description: 'Proposta de governo registrada no TSE pela candidatura de OMAR AZIZ (PSD) ao cargo de Governador
+      do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-PLANO ESTRATEGICO
+      COMPLETO - VOLUME-06.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124952
+      kind: documento
+    pdf:
+      sha256: c00bedc1f5443c2ab238e26eebe5a522a41afd76a1b76b73fefebfe5cf1b94d9
+      pages: 274
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124952
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 14, página 45, página 48, página 60, página 73, página
+      87, página 116, página 124, página 141, página 142, página 143, página 159, página 183, página 204, página 214,
+      página 218. Confira no original.'
+
+  - id: governador-am-omar-aziz-proposta-7
+    title: Proposta de governo de OMAR AZIZ (PSD), Governador do Amazonas, arquivo 7 de 9
+    short_title: Proposta de governo de OMAR AZIZ (PSD), Governador do Ama…
+    publisher: Documento PDF
+    date: '2026-08-14'
+    description: 'Proposta de governo registrada no TSE pela candidatura de OMAR AZIZ (PSD) ao cargo de Governador
+      do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-PLANO ESTRATEGICO
+      COMPLETO - VOLUME-07.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124953
+      kind: documento
+    pdf:
+      sha256: 4cf49f539f36d6c3a77406dd23f27ca8d59c53b8e0dd9cc1a9738bcad742e3d0
+      pages: 215
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124953
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 80, página 92, página 114, página 143, página 164,
+      página 186, página 199. Confira no original.'
+
+  - id: governador-am-omar-aziz-proposta-8
+    title: Proposta de governo de OMAR AZIZ (PSD), Governador do Amazonas, arquivo 8 de 9
+    short_title: Proposta de governo de OMAR AZIZ (PSD), Governador do Ama…
+    publisher: Documento PDF
+    date: '2026-08-14'
+    description: 'Proposta de governo registrada no TSE pela candidatura de OMAR AZIZ (PSD) ao cargo de Governador
+      do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-PLANO ESTRATEGICO
+      COMPLETO - VOLUME-08.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124954
+      kind: documento
+    pdf:
+      sha256: 1d26104c99596077ac63fd3bf65085002294c31377c144106b33af9c2b048b66
+      pages: 211
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124954
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 16, página 38, página 44, página 55, página 63, página
+      71, página 104, página 109, página 163, página 173, página 176, página 201. Confira no original.'
+
+  - id: governador-am-omar-aziz-proposta-9
+    title: Proposta de governo de OMAR AZIZ (PSD), Governador do Amazonas, arquivo 9 de 9
+    short_title: Proposta de governo de OMAR AZIZ (PSD), Governador do Ama…
+    publisher: Documento PDF
+    date: '2026-08-14'
+    description: 'Proposta de governo registrada no TSE pela candidatura de OMAR AZIZ (PSD) ao cargo de Governador
+      do Amazonas (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-PLANO ESTRATEGICO
+      COMPLETO - VOLUME-09.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124955
+      kind: documento
+    pdf:
+      sha256: 6f91717227deed0589596df0a400afd62a7926fd9f1bd2535d7bf425c7f68173
+      pages: 49
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/40017124955
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 9, página 12, página 13, página 49. Confira no original.'
+
+  - id: governador-df-celina-leao-proposta
+    title: Proposta de governo de CELINA LEÃO (PP), Governador do Distrito Federal
+    short_title: Proposta de governo de CELINA LEÃO (PP), Governador do Di…
+    publisher: Documento PDF
+    date: '2026-08-15'
+    description: 'Proposta de governo registrada no TSE pela candidatura de CELINA LEÃO (PP) ao cargo de Governador
+      do Distrito Federal (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: PlanodeGovernoCelinaLeao20272030versaofinal
+      1.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017118691
+      kind: documento
+    pdf:
+      sha256: 07e5646b8492d28acacd222d7af70d2441c62a162cba965a9a5ebf619a40b269
+      pages: 42
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017118691
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 3. Confira no original.'
+
+  - id: governador-df-leandro-grass-proposta
+    title: Proposta de governo de LEANDRO GRASS (PT), Governador do Distrito Federal
+    short_title: Proposta de governo de LEANDRO GRASS (PT), Governador do…
+    publisher: Documento PDF
+    date: '2026-08-13'
+    description: 'Proposta de governo registrada no TSE pela candidatura de LEANDRO GRASS (PT) ao cargo de Governador
+      do Distrito Federal (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: 130826PGMGOVLG13.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017113505
+      kind: documento
+    pdf:
+      sha256: c09971569d187486b3bd499c59aa06e2e1bac6f3efb24a1c779aea4442e85390
+      pages: 124
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/70017113505
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 3, página 5, página 123, página 124. Confira
+      no original.'
+
+  - id: governador-es-lorenzo-pazolini-proposta
+    title: Proposta de governo de LORENZO PAZOLINI (REPUBLICANOS), Governador do Espírito Santo
+    short_title: Proposta de governo de LORENZO PAZOLINI (REPUBLICANOS), G…
+    publisher: Documento PDF
+    date: '2026-10-15'
+    description: 'Proposta de governo registrada no TSE pela candidatura de LORENZO PAZOLINI (REPUBLICANOS) ao cargo
+      de Governador do Espírito Santo (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura:
+      Pazolini10  Tempo de paz  Programa de governo.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017115128
+      kind: documento
+    pdf:
+      sha256: c1e92e41340af2f42a7d4d1945ca88a1664f5d603f21c91116b34381b78965d4
+      pages: 54
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017115128
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 2, página 4, página 8, página 54. Confira
+      no original.'
+
+  - id: governador-es-ricardo-ferraco-proposta-1
+    title: Proposta de governo de RICARDO FERRAÇO (MDB), Governador do Espírito Santo, arquivo 1 de 2
+    short_title: Proposta de governo de RICARDO FERRAÇO (MDB), Governador…
+    publisher: Documento PDF
+    date: '2026-10-15'
+    description: 'Proposta de governo registrada no TSE pela candidatura de RICARDO FERRAÇO (MDB) ao cargo de Governador
+      do Espírito Santo (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: RFPLANO DE GOVERNO.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017109765
+      kind: documento
+    pdf:
+      sha256: 46fec346f4a2cb03a6eba55cb935c1165ba42f48e547432c51a7bee296229e6f
+      pages: 10
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017109765
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1. Confira no original.'
+
+  - id: governador-es-ricardo-ferraco-proposta-2
+    title: Proposta de governo de RICARDO FERRAÇO (MDB), Governador do Espírito Santo, arquivo 2 de 2
+    short_title: Proposta de governo de RICARDO FERRAÇO (MDB), Governador…
+    publisher: Documento PDF
+    date: '2026-08-18'
+    description: 'Proposta de governo registrada no TSE pela candidatura de RICARDO FERRAÇO (MDB) ao cargo de Governador
+      do Espírito Santo (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-RF_PLANO DE
+      GOVERNO_COMPLETO.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017130403
+      kind: documento
+    pdf:
+      sha256: 5b1bf276f82a0f7b410e0506ffef4577770673d4f7736d456583b5b81c652cc3
+      pages: 152
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/80017130403
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 2, página 3, página 151. Confira no original.'
+
+  - id: governador-rn-cadu-de-lula-proposta
+    title: Proposta de governo de CADU DE LULA (PT), Governador do Rio Grande do Norte
+    short_title: Proposta de governo de CADU DE LULA (PT), Governador do R…
+    publisher: Documento PDF
+    date: '2026-10-15'
+    description: 'Proposta de governo registrada no TSE pela candidatura de CADU DE LULA (PT) ao cargo de Governador
+      do Rio Grande do Norte (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: Plano de
+      governo Cadu de Lulacompressed.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016850707
+      kind: documento
+    pdf:
+      sha256: 9cf48cc58171d260472648e7e3ef2f13a4c034ca3c08ba706c99f63c5e045288
+      pages: 74
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016850707
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1. Confira no original.'
+
+  - id: governador-rn-allyson-proposta
+    title: Proposta de governo de ALLYSON (UNIÃO), Governador do Rio Grande do Norte
+    short_title: Proposta de governo de ALLYSON (UNIÃO), Governador do Rio…
+    publisher: lukas eloi do nascimento almeida
+    date: '2026-08-02'
+    description: 'Proposta de governo registrada no TSE pela candidatura de ALLYSON (UNIÃO) ao cargo de Governador
+      do Rio Grande do Norte (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: PROGRAMA
+      DE GOVERNO 20272030 2.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016865721
+      kind: documento
+    pdf:
+      sha256: e288e9c5d5372c6648f41a29058d8eab2474763af486e6e59d8f7aa4d1cde9b5
+      pages: 44
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/200016865721
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 4, página 5, página 6, página 7, página
+      8, página 14, página 17, página 21, página 28, página 31, página 33, página 36, página 39. Confira no original.'
+
+  - id: governador-to-professora-dorinha-proposta
+    title: Proposta de governo de PROFESSORA DORINHA (UNIÃO), Governador do Tocantins
+    short_title: Proposta de governo de PROFESSORA DORINHA (UNIÃO), Govern…
+    publisher: Documento PDF
+    date: '2026-10-15'
+    description: 'Proposta de governo registrada no TSE pela candidatura de PROFESSORA DORINHA (UNIÃO) ao cargo de
+      Governador do Tocantins (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: pje-2 Plano
+      de governo.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270017142569
+      kind: documento
+    pdf:
+      sha256: 072b645112fa8ca986cf2d8e57439a1e413b51b821461e71aea1204253e25536
+      pages: 84
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270017142569
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 2, página 3, página 4, página 5. Confira
+      no original.'
+
+  - id: governador-to-vicentinho-junior-proposta
+    title: Proposta de governo de VICENTINHO JÚNIOR (PSDB), Governador do Tocantins
+    short_title: Proposta de governo de VICENTINHO JÚNIOR (PSDB), Governad…
+    publisher: Documento PDF
+    date: '2026-08-07'
+    description: 'Proposta de governo registrada no TSE pela candidatura de VICENTINHO JÚNIOR (PSDB) ao cargo de Governador
+      do Tocantins (Lei 9.504/1997, art. 11, § 1º, IX). Arquivo como enviado pela candidatura: VJPlanoDeGovernoCONTEUDOA403.pdf.'
+    links:
+    - label: Original
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270017033657
+      kind: documento
+    pdf:
+      sha256: 60cfd10f7f71f2bffb914b85924f0d7471322ea91fa2ba7e033cc2a73d08f255
+      pages: 36
+      url: https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/270017033657
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 1, página 36. Confira no original.'

@@ -1,0 +1,48 @@
+# Fontes desta base. Toda mensagem em messages/<id>.jsonl pertence a uma fonte daqui com o mesmo id.
+# Gerado e atualizado pelo agente-extrator (https://github.com/chat-com-alguem/agente-extrator).
+
+sources:
+  - id: autos-devassa-vol-5-interrogatorios
+    title: 'Autos de Devassa da Inconfidência Mineira, vol. 5: interrogatórios (1789-1791)'
+    short_title: 'Autos de Devassa, vol. 5: interrogatórios'
+    publisher: Câmara dos Deputados e Imprensa Oficial de MG (2ª ed.); PDF publicado pelo TJMG
+    date: '1982-04-01'
+    description: 'Os autos de perguntas feitas aos réus da Conjuração Mineira no Rio de Janeiro, entre 1789 e 1791:
+      as onze inquirições do Alferes Joaquim José da Silva Xavier, o Tiradentes, e as de Tomás Antônio Gonzaga, Alvarenga
+      Peixoto, Padre Rolim, Freire de Andrada e outros, com as acareações e o exame do bacamarte encontrado com Tiradentes.
+      Transcrição literal dos manuscritos.
+
+      '
+    links:
+    - label: Original
+      url: https://ejef.tjmg.jus.br/wp-content/uploads/2022/06/atos_volume-5.pdf
+      kind: documento
+    pdf:
+      sha256: 698cbf6404702804bc49ee870413a539439fa22ddbd04b6b9a0da0e34bd80b3c
+      pages: 575
+      url: https://ejef.tjmg.jus.br/wp-content/uploads/2022/06/atos_volume-5.pdf
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 74. Confira no original.'
+
+  - id: autos-devassa-vol-7-sentenca
+    title: 'Autos de Devassa da Inconfidência Mineira, vol. 7: sentença e execução (1789-1792)'
+    short_title: 'Autos de Devassa, vol. 7: sentença e execução'
+    publisher: Câmara dos Deputados e Imprensa Oficial de MG (2ª ed.); PDF publicado pelo TJMG
+    date: '1982-07-01'
+    description: 'Ofícios e cartas sobre a devassa, os autos-crimes do Juízo da Comissão, a defesa do advogado José
+      de Oliveira Fagundes, o acórdão da Alçada de 18 de abril de 1792 que condena Tiradentes à forca, a carta de
+      clemência que comuta a pena dos demais réus e a certidão da execução no Rio de Janeiro em 21 de abril de 1792.
+
+      '
+    links:
+    - label: Original
+      url: https://ejef.tjmg.jus.br/wp-content/uploads/2022/06/atos_volume-7.pdf
+      kind: documento
+    pdf:
+      sha256: 2528d8709d8242bb067760a627828b00517fc1e40e21d2890045301378fb09ef
+      pages: 415
+      url: https://ejef.tjmg.jus.br/wp-content/uploads/2022/06/atos_volume-7.pdf
+    notes:
+    - 'Não transcrito (sem texto no arquivo, só imagem): página 25, página 36, página 41, página 52, página 61, página
+      70, página 72, página 81, página 85, página 88, página 99, página 262, página 267, página 269, página 366, página
+      378. Confira no original.'
